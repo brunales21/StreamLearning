@@ -1,3 +1,5 @@
+package ejemplo1;
+
 public class Clazz {
     public String s;
 

@@ -1,3 +1,5 @@
+package ejemplo1;
+
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -67,7 +69,7 @@ public class Main {
                 filter(Clazz::tieneVocal).
                 collect(Collectors.toList());
         //return lista.stream().
-        // filter(a -> Clazz.tieneVocal(a)).
+        // filter(a -> ejemplo1.Clazz.tieneVocal(a)).
         // collect(Collectors.toList());
     }
 }
